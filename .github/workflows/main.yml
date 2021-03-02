@@ -17,7 +17,7 @@ on:
 jobs:
   # This workflow contains a single job called "testCI"
   testCI:
-    name: Testing on OS ${{matrix.os}}
+    name: Testing on OS ${{matrix.os}}, Python ${{ matrix.python-version }}
     runs-on: ${{matrix.os}}
     strategy:
       matrix:
