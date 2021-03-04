@@ -7,8 +7,6 @@
 
 [![Actions Status](https://github.com/volkamerlab/DL_in_VS_review/workflows/CI/badge.svg)](https://github.com/volkamerlab/DL_in_VS_review/actions)
 
-[![Actions Status](https://github.com/volkamerlab/DL_in_VS_review/workflows/flake8/badge.svg)](https://github.com/volkamerlab/DL_in_VS_review/actions)
-
 
 #### Conda installation
 Create a conda environment:
