@@ -34,7 +34,7 @@ jobs:
       - name: Install conda environment
         uses: conda-incubator/setup-miniconda@v2
         with:
-          environment-file: devtools/env.yaml
+          environment-file: devtools/env.yml
           activate-environment: dl-review
 
       - name: Check conda environment
