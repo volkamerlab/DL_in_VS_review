@@ -45,5 +45,5 @@ cmd.set_view ((
 
 # save pymol session
 cmd.save(HERE / "pymol_3d_grid_encoding.pse")
-cmd.ray(2000, 2000)
+cmd.ray(800, 800)
 cmd.png(DATA / "pymol_3d_grid_encoding.png")
